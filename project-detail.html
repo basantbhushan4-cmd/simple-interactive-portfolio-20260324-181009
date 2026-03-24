@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Detail - Portfolio</title>
+    <meta name="description" content="Detailed information about a specific web development project, including technologies and live links.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="project-detail-section section-padding">
+            <div class="container">
+                <h1 id="project-title">Dynamic Project Title</h1>
+                <p class="project-tagline" id="project-tagline">A brief overview of the project's purpose and key features.</p>
+
+                <div class="project-overview-grid">
+                    <div class="project-media">
+                        <img src="https://via.placeholder.com/800x500?text=Project+Screenshot" alt="Project Screenshot" id="project-image">
+                    </div>
+                    <div class="project-details">
+                        <h2>Project Description</h2>
+                        <p id="project-description">This is a detailed description of the project. It covers the problem it aims to solve, the technologies used, and the challenges faced during development. The goal was to create a seamless user experience while ensuring robust functionality and performance across various devices.</p>
+                        <p>Key features include a responsive layout, interactive components, and integration with external services. Performance optimization and accessibility were top priorities throughout the development cycle.</p>
+
+                        <h3>Technologies Used</h3>
+                        <ul class="tech-list" id="project-tech-list">
+                            <li><i class="fab fa-react"></i> React.js</li>
+                            <li><i class="fab fa-node-js"></i> Node.js & Express.js</li>
+                            <li><i class="fas fa-database"></i> MongoDB</li>
+                            <li><i class="fab fa-css3-alt"></i> SCSS</li>
+                            <li><i class="fas fa-gem"></i> Ruby on Rails</li>
+                            <li><i class="fab fa-aws"></i> AWS Deployment</li>
+                        </ul>
+
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-primary" id="live-demo-link"><i class="fas fa-globe"></i> Live Demo</a>
+                            <a href="#" target="_blank" class="btn btn-secondary" id="github-link"><i class="fab fa-github"></i> GitHub Repo</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="back-to-projects">
+                    <a href="projects.html" class="btn btn-secondary-outline"><i class="fas fa-arrow-left"></i> Back to Projects</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">Portfolio</a>
+                    <p>Crafting Digital Experiences</p>
+                </div>
+                <div class="footer-nav">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:basantbhushan89@gmail.com">basantbhushan89@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+918077519705">+918077519705</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/projects.js"></script> <!-- Re-using projects.js for detail page data simulation -->
+</body>
+</html>
