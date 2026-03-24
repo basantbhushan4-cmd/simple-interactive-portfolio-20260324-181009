@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Portfolio</title>
+    <meta name="description" content="Explore a collection of my web development projects, showcasing diverse skills and solutions.">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="logo">Portfolio</a>
+            <button class="hamburger" aria-label="Toggle navigation menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Index</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="projects-hero section-padding">
+            <div class="container">
+                <h1>My Recent Projects</h1>
+                <p class="tagline">A showcase of diverse web development work, from simple landing pages to complex applications.</p>
+            </div>
+        </section>
+
+        <section class="projects-section section-padding bg-light">
+            <div class="container">
+                <div class="filter-buttons">
+                    <button class="btn btn-filter active" data-filter="all">All</button>
+                    <button class="btn btn-filter" data-filter="web-app">Web Apps</button>
+                    <button class="btn btn-filter" data-filter="ecommerce">E-commerce</button>
+                    <button class="btn btn-filter" data-filter="portfolio">Portfolios</button>
+                    <button class="btn btn-filter" data-filter="ui-ux">UI/UX</button>
+                </div>
+
+                <div class="projects-grid">
+                    <article class="project-card" data-category="web-app">
+                        <img src="https://via.placeholder.com/400x250?text=Project+1" alt="Project 1: Task Manager App">
+                        <div class="project-info">
+                            <h3>Task Manager App</h3>
+                            <p>A responsive web application for managing daily tasks and productivity.</p>
+                            <div class="project-tags">
+                                <span>React</span>
+                                <span>Node.js</span>
+                                <span>MongoDB</span>
+                            </div>
+                            <a href="project-detail.html?id=1" class="btn btn-small">View Details</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ecommerce">
+                        <img src="https://via.placeholder.com/400x250?text=Project+2" alt="Project 2: E-commerce Store">
+                        <div class="project-info">
+                            <h3>Online Store Front</h3>
+                            <p>A fully functional e-commerce platform with product listings and checkout.</p>
+                            <div class="project-tags">
+                                <span>Vue.js</span>
+                                <span>Express</span>
+                                <span>Stripe API</span>
+                            </div>
+                            <a href="project-detail.html?id=2" class="btn btn-small">View Details</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="portfolio">
+                        <img src="https://via.placeholder.com/400x250?text=Project+3" alt="Project 3: Creative Portfolio">
+                        <div class="project-info">
+                            <h3>Designer's Portfolio</h3>
+                            <p>A sleek and modern portfolio site for a graphic designer.</p>
+                            <div class="project-tags">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <a href="project-detail.html?id=3" class="btn btn-small">View Details</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ui-ux">
+                        <img src="https://via.placeholder.com/400x250?text=Project+4" alt="Project 4: Dashboard UI">
+                        <div class="project-info">
+                            <h3>Admin Dashboard UI</h3>
+                            <p>A responsive administrative dashboard user interface design.</p>
+                            <div class="project-tags">
+                                <span>Tailwind CSS</span>
+                                <span>React</span>
+                                <span>Figma</span>
+                            </div>
+                            <a href="project-detail.html?id=4" class="btn btn-small">View Details</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="web-app">
+                        <img src="https://via.placeholder.com/400x250?text=Project+5" alt="Project 5: Weather App">
+                        <div class="project-info">
+                            <h3>Real-time Weather App</h3>
+                            <p>An application displaying real-time weather data using a public API.</p>
+                            <div class="project-tags">
+                                <span>JavaScript</span>
+                                <span>API Integration</span>
+                                <span>Geolocation</span>
+                            </div>
+                            <a href="project-detail.html?id=5" class="btn btn-small">View Details</a>
+                        </div>
+                    </article>
+
+                    <article class="project-card" data-category="ecommerce">
+                        <img src="https://via.placeholder.com/400x250?text=Project+6" alt="Project 6: Book Store">
+                        <div class="project-info">
+                            <h3>Online Book Store</h3>
+                            <p>A platform for browsing and purchasing books, with user reviews.</p>
+                            <div class="project-tags">
+                                <span>Angular</span>
+                                <span>Firebase</span>
+                                <span>SCSS</span>
+                            </div>
+                            <a href="project-detail.html?id=6" class="btn btn-small">View Details</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">Portfolio</a>
+                    <p>Crafting Digital Experiences</p>
+                </div>
+                <div class="footer-nav">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Index</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:basantbhushan89@gmail.com">basantbhushan89@gmail.com</a></p>
+                    <p><i class="fas fa-phone"></i> <a href="tel:+918077519705">+918077519705</a></p>
+                    <p><i class="fas fa-map-marker-alt"></i> India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> Portfolio. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/filter.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>
